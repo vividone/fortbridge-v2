@@ -51,7 +51,7 @@ export default function AccuraPage() {
         <div className="flex flex-wrap items-center justify-center gap-4 -mt-4">
           <Badge variant="success" size="lg" dot>MVP Live</Badge>
           <Button
-            href="https://accura.com.ng"
+            href="https://accura.fortbridge.co"
             external
             rightIcon={<ArrowRight className="w-4 h-4" />}
           >
@@ -244,7 +244,7 @@ export default function AccuraPage() {
       <CTASection
         headline="Ready to Take Control of Your Finances?"
         description="Join the businesses building financial clarity with Accura."
-        primaryCTA={{ label: 'Start Free Trial', href: 'https://accura.com.ng', external: true }}
+        primaryCTA={{ label: 'Start Free Trial', href: 'https://accura.fortbridge.co', external: true }}
         secondaryCTA={{ label: 'Schedule a Demo', href: '/contact' }}
       >
         <p className="text-sm text-[var(--color-gray-500)] mt-4">
