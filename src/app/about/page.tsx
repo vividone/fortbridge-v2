@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { ArrowRight, Linkedin, Code2, Cloud, Shield, Lightbulb, Target } from 'lucide-react';
+import { Linkedin, Code2, Cloud, Shield, Lightbulb, Target } from 'lucide-react';
 import { PageHero, Section, SectionHeader, SectionGrid, CTASection } from '@/components/sections';
 import { Card, Blockquote, Button } from '@/components/ui';
 

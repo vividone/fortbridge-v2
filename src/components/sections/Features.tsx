@@ -184,7 +184,7 @@ export function ComparisonTable({
               <td className="py-4 px-4 text-[var(--color-black)]">
                 {row.feature}
               </td>
-              <td className="py-4 px-4 text-center font-medium">
+              <td className="py-4 px-4 text-center font-medium text-[var(--color-gray-500)]">
                 {renderValue(row.us)}
               </td>
               <td className="py-4 px-4 text-center text-[var(--color-gray-600)]">

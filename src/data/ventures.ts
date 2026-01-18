@@ -13,6 +13,7 @@ export const ventures: Venture[] = [
     color: '#10B981',
     colorLight: '#D1FAE5',
     website: 'https://accura.com.ng',
+    logo: '/images/accura_logo.png',
     features: [
       'Mobile-first double-entry ledger',
       'AI transaction categorization',
@@ -40,6 +41,7 @@ export const ventures: Venture[] = [
     color: '#F59E0B',
     colorLight: '#FEF3C7',
     website: 'https://thebakrapp.xyz',
+    logo: '/images/bakr_logo.png',
     features: [
       'Smart inventory with auto-deduction',
       'Real-time recipe costing',
@@ -74,6 +76,7 @@ export const ventures: Venture[] = [
       'Credit-based pricing',
       'Multi-gate support',
     ],
+    logo: '/images/valid8_logo.png',
     metrics: [
       { label: 'Scan Latency', value: '<1 second' },
       { label: 'Platform Modes', value: '2', description: 'Institution + Event' },

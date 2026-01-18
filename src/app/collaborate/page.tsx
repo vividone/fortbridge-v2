@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import { ArrowRight, CheckCircle2, Users, Code2, Rocket, TrendingUp } from 'lucide-react';
+import { CheckCircle2, Users, Code2, Rocket, TrendingUp } from 'lucide-react';
 import { PageHero, Section, SectionHeader, SectionGrid, FAQSection, CTASection } from '@/components/sections';
-import { Card, Button, List } from '@/components/ui';
+import { Card, List } from '@/components/ui';
 
 export const metadata: Metadata = {
   title: 'Partner With Us | Fortbridge Founder-in-Residence Program',
@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: 'How long is the program?',
-    answer: 'The program runs through the full venture creation cycle—typically 12-18 months from concept to growth stage. We\'re long-term partners, not short-term accelerators.',
+    answer: 'The program runs through the full venture creation cycle—typically 12-18 months from concept to growth stage. We&apos;re long-term partners, not short-term accelerators.',
   },
   {
     question: 'Do I need technical skills?',
@@ -85,9 +85,9 @@ export default function CollaboratePage() {
         />
         <div className="max-w-3xl mx-auto space-y-6">
           {[
-            { phase: 'Apply', icon: <Users className="w-5 h-5" />, desc: 'Submit your application with your background, the problem you\'ve identified, and why you\'re the right person to solve it.' },
+            { phase: 'Apply', icon: <Users className="w-5 h-5" />, desc: 'Submit your application with your background, the problem you&apos;ve identified, and why you&apos;re the right person to solve it.' },
             { phase: 'Evaluate', icon: <CheckCircle2 className="w-5 h-5" />, desc: 'We assess fit: market opportunity, problem validity, your domain depth, and alignment with our thesis.' },
-            { phase: 'Align', icon: <Code2 className="w-5 h-5" />, desc: 'If there\'s mutual interest, we work together to define the venture concept, roles, and equity structure.' },
+            { phase: 'Align', icon: <Code2 className="w-5 h-5" />, desc: 'If there&apos;s mutual interest, we work together to define the venture concept, roles, and equity structure.' },
             { phase: 'Build', icon: <Rocket className="w-5 h-5" />, desc: 'You join full-time. The Product Powerhouse activates. We build your MVP together in 4-6 months.' },
             { phase: 'Launch', icon: <TrendingUp className="w-5 h-5" />, desc: 'Go to market with support. You lead the business; we remain operational partners.' },
           ].map((item, i) => (
@@ -114,17 +114,17 @@ export default function CollaboratePage() {
             <h3 className="text-xl font-semibold text-[var(--color-black)] mb-4">You might be a fit if:</h3>
             <List
               items={[
-                'You\'ve spent 5+ years in an industry and understand its pain points deeply',
-                'You\'ve identified a problem that keeps you up at night',
+                'You&apos;ve spent 5+ years in an industry and understand its pain points deeply',
+                'You&apos;ve identified a problem that keeps you up at night',
                 'You have a network that trusts your judgment',
-                'You\'re ready to commit full-time to building something',
-                'You\'re comfortable leading product and market strategy',
+                'You&apos;re ready to commit full-time to building something',
+                'You&apos;re comfortable leading product and market strategy',
               ]}
               variant="check"
             />
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-[var(--color-black)] mb-4">Industries we\'re excited about:</h3>
+            <h3 className="text-xl font-semibold text-[var(--color-black)] mb-4">Industries we&apos;re excited about:</h3>
             <List
               items={[
                 'Healthcare operations & clinic management',

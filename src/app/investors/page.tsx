@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import { ArrowRight, CheckCircle2, Shield, TrendingUp, Users, Layers } from 'lucide-react';
+import { CheckCircle2, Shield, TrendingUp, Layers } from 'lucide-react';
 import { PageHero, Section, SectionHeader, SectionGrid, CTASection } from '@/components/sections';
-import { Card, Badge, Button, VentureCard } from '@/components/ui';
+import { Card, Badge, VentureCard } from '@/components/ui';
 import { ventures } from '@/data/ventures';
 
 export const metadata: Metadata = {
@@ -96,13 +96,13 @@ export default function InvestorsPage() {
           {ventures.map((venture) => (
             <VentureCard
               key={venture.id}
+              id={venture.id}
               name={venture.name}
               tagline={venture.tagline}
               description={venture.description}
               status={venture.statusLabel}
               statusVariant={venture.status === 'live' ? 'success' : 'info'}
               color={venture.color}
-              colorLight={venture.colorLight}
               href={`/ventures/${venture.slug}`}
               metrics={venture.metrics.slice(0, 2)}
             />

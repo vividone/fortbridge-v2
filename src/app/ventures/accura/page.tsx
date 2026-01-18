@@ -1,15 +1,12 @@
 import type { Metadata } from 'next';
-import { ArrowRight, Smartphone, Brain, Users, Link as LinkIcon, Zap, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Smartphone, Brain, Users, CheckCircle2 } from 'lucide-react';
 import { PageHero, Section, SectionHeader, SectionGrid, FAQSection, CTASection } from '@/components/sections';
 import { Button, Badge, Card, FeatureCard } from '@/components/ui';
-import { getVentureBySlug } from '@/data/ventures';
 
 export const metadata: Metadata = {
   title: 'Accura | AI-Powered Financial Management for Nigerian SMEs',
-  description: 'Accura helps Nigerian SMEs manage finances with AI-powered bookkeeping, bank integration, and access to vetted accountants. Start at ₦10,000/month.',
+  description: 'Accura is the intelligent Financial OS that closes the gap between bookkeeping and business growth for African MSMEs.',
 };
-
-const venture = getVentureBySlug('accura')!;
 
 const faqs = [
   {
@@ -65,6 +62,7 @@ export default function AccuraPage() {
           </Button>
         </div>
       </Section>
+
 
       {/* THE PROBLEM */}
       <Section background="secondary">

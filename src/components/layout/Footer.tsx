@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Linkedin, Twitter } from 'lucide-react';
 import { Container } from './Container';
-import { siteConfig, footerColumns, socialLinks } from '@/config/site';
+import { siteConfig, footerColumns } from '@/config/site';
 
 export function Footer() {
   return (

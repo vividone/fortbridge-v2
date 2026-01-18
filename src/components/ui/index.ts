@@ -9,3 +9,4 @@ export {
   List,
   Divider,
 } from './Typography';
+export { VentureLogo } from './VentureLogo';
