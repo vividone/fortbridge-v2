@@ -69,9 +69,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/fortbrige_default_icon.png',
-    shortcut: '/fortbrige_default_icon.png',
-    apple: '/fortbrige_default_icon.png',
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
   },
 };
 
