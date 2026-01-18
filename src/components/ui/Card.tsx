@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Badge } from './Badge';
+import { VentureLogo } from './VentureLogo';
 import type { ReactNode } from 'react';
 
 interface CardProps {
@@ -121,26 +121,26 @@ export function FeatureCard({
 }
 
 interface VentureCardProps {
+  id: string;
   name: string;
   tagline: string;
   description: string;
   status: string;
   statusVariant?: 'success' | 'warning' | 'info';
   color: string;
-  colorLight: string;
   href: string;
   metrics?: Array<{ label: string; value: string }>;
   className?: string;
 }
 
 export function VentureCard({
+  id,
   name,
   tagline,
   description,
   status,
   statusVariant = 'success',
   color,
-  colorLight,
   href,
   metrics,
   className,
@@ -148,18 +148,13 @@ export function VentureCard({
   return (
     <LinkCard href={href} className={cn('group', className)}>
       <div className="flex items-start justify-between mb-4">
-        <div
-          className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl font-bold"
-          style={{ backgroundColor: colorLight, color }}
-        >
-          {name[0]}
-        </div>
+        <VentureLogo ventureId={id} className="transition-transform duration-300 group-hover:scale-110" />
         <Badge variant={statusVariant}>{status}</Badge>
       </div>
 
-      <h3 className="text-xl font-semibold text-[var(--color-black)] mb-1 group-hover:text-[var(--color-primary)] transition-colors">
+      {/* <h3 className="text-xl font-semibold text-[var(--color-black)] mb-1 group-hover:text-[var(--color-primary)] transition-colors">
         {name}
-      </h3>
+      </h3> */}
       <p className="text-sm font-medium mb-3" style={{ color }}>
         {tagline}
       </p>
@@ -184,7 +179,7 @@ export function VentureCard({
         Explore {name}
         <ArrowRight className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" />
       </div>
-    </LinkCard>
+    </LinkCard >
   );
 }
 

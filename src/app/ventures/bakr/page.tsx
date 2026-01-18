@@ -278,10 +278,11 @@ export default function BakrPage() {
         primaryCTA={{ label: 'Start Free Trial', href: 'https://thebakrapp.xyz', external: true }}
         secondaryCTA={{ label: 'Request a Demo', href: '/contact' }}
       >
-        <p className="text-sm text-[var(--color-gray-500)] mt-4">
-          ✓ Free 14-day trial · ✓ No credit card required · ✓ Setup in 30 minutes
+        <p className="text-center text-sm text-[var(--color-gray-500)] mt-4">
+          Bakr is currently in closed pilot with selected bakeries in Lagos and Abuja.
         </p>
       </CTASection>
+
     </>
   );
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { ArrowRight, QrCode, Calendar, WifiOff, Zap, Printer, Shield } from 'lucide-react';
+import { ArrowRight, Shield, Zap, QrCode, Printer, WifiOff } from 'lucide-react';
 import { PageHero, Section, SectionHeader, SectionGrid, CTASection } from '@/components/sections';
 import { Button, Badge, Card, FeatureCard } from '@/components/ui';
 
@@ -38,6 +38,7 @@ export default function Valid8Page() {
           Valid8 is currently in active development. We&apos;re working with pilot institutions before public launch.
         </p>
       </Section>
+
 
       {/* THE PROBLEM */}
       <Section background="secondary">
@@ -243,7 +244,7 @@ export default function Valid8Page() {
                 { label: 'Institutional TAM', value: '20,000+ institutions' },
                 { label: 'Events TAM', value: '30,000+ events/year' },
                 { label: 'Scan Latency', value: '<1 second' },
-                { label: 'Status', value: 'Beta Q3 2025' },
+                { label: 'Status', value: 'Beta Q2 2026' },
               ].map((item, i) => (
                 <div key={i} className="flex justify-between py-2 border-b border-[var(--color-gray-200)]">
                   <span className="text-[var(--color-gray-600)]">{item.label}</span>

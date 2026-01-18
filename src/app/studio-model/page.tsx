@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import { Search, Lightbulb, Code2, Rocket, TrendingUp, ArrowRight } from 'lucide-react';
+import { Search, Lightbulb, Code2, Rocket, TrendingUp } from 'lucide-react';
 import { PageHero, Section, SectionHeader, SectionGrid, CTASection, ComparisonTable } from '@/components/sections';
-import { Card, FeatureCard, Button } from '@/components/ui';
+import { Card, FeatureCard } from '@/components/ui';
 
 export const metadata: Metadata = {
   title: 'How We Build | The Fortbridge Startup Studio Model',

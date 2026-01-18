@@ -90,13 +90,13 @@ export default function VenturesPage() {
           {ventures.map((venture) => (
             <VentureCard
               key={venture.id}
+              id={venture.id}
               name={venture.name}
               tagline={venture.tagline}
               description={venture.description}
               status={venture.statusLabel}
               statusVariant={venture.status === 'live' ? 'success' : 'info'}
               color={venture.color}
-              colorLight={venture.colorLight}
               href={`/ventures/${venture.slug}`}
               metrics={venture.metrics.slice(0, 2)}
             />

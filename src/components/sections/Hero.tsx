@@ -61,7 +61,7 @@ export function Hero({
   return (
     <section
       className={cn(
-        'relative min-h-[80vh] flex items-center pt-20',
+        'relative min-h-[80vh] flex items-center pt-32',
         backgroundClasses[background],
         className
       )}
