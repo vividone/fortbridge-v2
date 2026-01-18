@@ -12,7 +12,7 @@ export const ventures: Venture[] = [
     category: 'FinTech / Financial Management',
     color: '#10B981',
     colorLight: '#D1FAE5',
-    website: 'https://accura.com.ng',
+    website: 'https://accura.fortbridge.co',
     logo: '/images/accura_logo.png',
     features: [
       'Mobile-first double-entry ledger',
