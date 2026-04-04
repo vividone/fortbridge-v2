@@ -4,25 +4,25 @@ import { PageHero, Section, SectionHeader, SectionGrid, FAQSection, CTASection }
 import { Button, Badge, Card, FeatureCard } from '@/components/ui';
 
 export const metadata: Metadata = {
-  title: 'Accura | AI-Powered Financial Management for Nigerian SMEs',
-  description: 'Accura is the intelligent Financial OS that closes the gap between bookkeeping and business growth for African MSMEs.',
+  title: 'Accurify | AI-Powered Financial Management for Nigerian SMEs',
+  description: 'Accurify is the intelligent Financial OS that closes the gap between bookkeeping and business growth for African MSMEs.',
 };
 
 const faqs = [
   {
-    question: 'How is Accura different from QuickBooks or Xero?',
+    question: 'How is Accurify different from QuickBooks or Xero?',
     answer: 'Three key differences: (1) Pricing designed for Nigerian realities, not US/UK markets. (2) AI that actively works on your books, not just stores data. (3) Integrated access to vetted local accountants at flat monthly rates.',
   },
   {
     question: 'Is my financial data secure?',
-    answer: 'Absolutely. Accura is built by Fortbridge, a team with deep cybersecurity expertise. We use bank-level encryption, secure cloud infrastructure, and are fully NDPR compliant. Your data is yours—we never sell or share it.',
+    answer: 'Absolutely. Accurify is built by Fortbridge, a team with deep cybersecurity expertise. We use bank-level encryption, secure cloud infrastructure, and are fully NDPR compliant. Your data is yours—we never sell or share it.',
   },
   {
     question: 'What if I already have an accountant?',
-    answer: 'Great! Accura works alongside your existing accountant. In fact, many accountants prefer clients who use Accura because the books are already organized when they receive them. We also offer accountant portal access.',
+    answer: 'Great! Accurify works alongside your existing accountant. In fact, many accountants prefer clients who use Accurify because the books are already organized when they receive them. We also offer accountant portal access.',
   },
   {
-    question: 'Which banks does Accura integrate with?',
+    question: 'Which banks does Accurify integrate with?',
     answer: 'We\'re actively integrating with major Nigerian banks. Current and upcoming integrations include GTBank, Access Bank, Zenith Bank, First Bank, UBA, and more.',
   },
   {
@@ -31,18 +31,18 @@ const faqs = [
   },
 ];
 
-export default function AccuraPage() {
+export default function AccurifyPage() {
   return (
     <>
       {/* HERO */}
       <PageHero
         label="FINTECH / FINANCIAL MANAGEMENT"
         title="The Intelligent Financial OS for African Business"
-        description="Accura is a hybrid 'Software + Service' platform that combines AI-powered bookkeeping with a vetted expert marketplace—designed specifically for the financial realities of Nigerian businesses."
+        description="Accurify is a hybrid 'Software + Service' platform that combines AI-powered bookkeeping with a vetted expert marketplace—designed specifically for the financial realities of Nigerian businesses."
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Ventures', href: '/ventures' },
-          { label: 'Accura' },
+          { label: 'Accurify' },
         ]}
       />
 
@@ -51,11 +51,11 @@ export default function AccuraPage() {
         <div className="flex flex-wrap items-center justify-center gap-4 -mt-4">
           <Badge variant="success" size="lg" dot>MVP Live</Badge>
           <Button
-            href="https://accura.fortbridge.co"
+            href="https://accurify.co"
             external
             rightIcon={<ArrowRight className="w-4 h-4" />}
           >
-            Visit Accura
+            Visit Accurify
           </Button>
           <Button variant="outline" href="#business-case">
             For Investors
@@ -114,14 +114,14 @@ export default function AccuraPage() {
       {/* THE SOLUTION */}
       <Section>
         <SectionHeader
-          label="THE ACCURA ECOSYSTEM"
+          label="THE ACCURIFY ECOSYSTEM"
           title="A Tri-Layer Platform Built for African Realities"
-          description="Accura isn't just another accounting app. It's a complete financial operating system."
+          description="Accurify isn't just another accounting app. It's a complete financial operating system."
         />
         <SectionGrid columns={3}>
           <FeatureCard
             icon={<Smartphone className="w-6 h-6" />}
-            title="Accura Books"
+            title="Accurify Books"
             description="Mobile-first financial management. A modern, double-entry accounting system designed for how African entrepreneurs actually work."
             features={[
               'Double-entry ledger',
@@ -132,7 +132,7 @@ export default function AccuraPage() {
           />
           <FeatureCard
             icon={<Brain className="w-6 h-6" />}
-            title="Accura Intelligence"
+            title="Accurify Intelligence"
             description="Your AI-powered junior accountant. Automatically categorizes transactions, flags anomalies, and prepares books for review."
             features={[
               'Smart categorization',
@@ -143,7 +143,7 @@ export default function AccuraPage() {
           />
           <FeatureCard
             icon={<Users className="w-6 h-6" />}
-            title="Accura Experts"
+            title="Accurify Experts"
             description="Vetted accountants at flat monthly rates. Professional support without unpredictable hourly billing."
             features={[
               'Starter: ₦10,000/mo',
@@ -167,7 +167,7 @@ export default function AccuraPage() {
         />
         <div className="grid md:grid-cols-4 gap-6">
           {[
-            { step: '1', title: 'Connect', desc: 'Link your bank accounts. Accura starts importing transactions automatically.', time: '5 minutes' },
+            { step: '1', title: 'Connect', desc: 'Link your bank accounts. Accurify starts importing transactions automatically.', time: '5 minutes' },
             { step: '2', title: 'Automate', desc: 'Watch as Intelligence categorizes and organizes your financial data.', time: 'Continuous' },
             { step: '3', title: 'Review', desc: 'Quick daily check-ins to approve AI suggestions. Your books stay current.', time: '5 min/day' },
             { step: '4', title: 'Grow', desc: 'Your matched accountant reviews books monthly and provides guidance.', time: 'Monthly' },
@@ -243,8 +243,8 @@ export default function AccuraPage() {
       {/* CTA */}
       <CTASection
         headline="Ready to Take Control of Your Finances?"
-        description="Join the businesses building financial clarity with Accura."
-        primaryCTA={{ label: 'Start Free Trial', href: 'https://accura.fortbridge.co', external: true }}
+        description="Join the businesses building financial clarity with Accurify."
+        primaryCTA={{ label: 'Start Free Trial', href: 'https://accurify.co', external: true }}
         secondaryCTA={{ label: 'Schedule a Demo', href: '/contact' }}
       >
         <p className="text-sm text-[var(--color-gray-500)] mt-4">

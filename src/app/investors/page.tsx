@@ -118,7 +118,7 @@ export default function InvestorsPage() {
         />
         <SectionGrid columns={3}>
           {[
-            { icon: <Layers className="w-6 h-6" />, title: 'Vertical Integration', desc: 'Our ventures go deep. Accura owns software + service. High switching costs = high retention.' },
+            { icon: <Layers className="w-6 h-6" />, title: 'Vertical Integration', desc: 'Our ventures go deep. Accurify owns software + service. High switching costs = high retention.' },
             { icon: <TrendingUp className="w-6 h-6" />, title: 'Data Network Effects', desc: 'Every transaction makes AI smarter. Patterns emerge. New entrants start with no data.' },
             { icon: <Shield className="w-6 h-6" />, title: 'Context-Native Design', desc: 'Offline capability, local payments, NDPR compliance. Built for African realities.' },
           ].map((item, i) => (
@@ -173,7 +173,7 @@ export default function InvestorsPage() {
         <SectionGrid columns={3}>
           {[
             { title: 'Studio-Level Investment', desc: 'Invest in Fortbridge as a studio, gaining exposure to the entire portfolio of current and future ventures.', badge: 'Portfolio Exposure' },
-            { title: 'Venture-Specific Investment', desc: 'Invest directly in a specific venture (Accura, Bakr, or Valid8) as it raises growth capital.', badge: 'Concentrated Bet' },
+            { title: 'Venture-Specific Investment', desc: 'Invest directly in a specific venture (Accurify, Bakr, or Valid8) as it raises growth capital.', badge: 'Concentrated Bet' },
             { title: 'Strategic Partnership', desc: 'For corporates and family offices with strategic interest beyond financial returns.', badge: 'Value-Add' },
           ].map((item, i) => (
             <Card key={i} hover className="p-8">

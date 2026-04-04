@@ -14,7 +14,7 @@ const contactPathways = [
   { icon: <MessageSquare className="w-6 h-6" />, title: 'General Questions', desc: 'Questions about Fortbridge or our ventures', email: 'hello@fortbridge.co' },
   { icon: <Handshake className="w-6 h-6" />, title: 'Partnership', desc: 'Founder-in-Residence program or strategic partnerships', email: 'partners@fortbridge.co', link: '/collaborate' },
   { icon: <TrendingUp className="w-6 h-6" />, title: 'Investor Relations', desc: 'Interested in investing in Fortbridge', email: 'investors@fortbridge.co', link: '/investors' },
-  { icon: <Headphones className="w-6 h-6" />, title: 'Product Support', desc: 'Need help with Accura, Bakr, or Valid8', email: 'support@fortbridge.co' },
+  { icon: <Headphones className="w-6 h-6" />, title: 'Product Support', desc: 'Need help with Accurify, Bakr, or Valid8', email: 'support@fortbridge.co' },
   { icon: <Newspaper className="w-6 h-6" />, title: 'Media & Press', desc: 'Journalist or media professional', email: 'press@fortbridge.co' },
   { icon: <Briefcase className="w-6 h-6" />, title: 'Careers', desc: 'Interested in joining the team', email: 'careers@fortbridge.co' },
 ];

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 interface VentureLogoProps {
-    ventureId: 'accura' | 'bakr' | 'valid8' | string;
+    ventureId: 'accurify' | 'bakr' | 'valid8' | string;
     collapsed?: boolean;
     className?: string;
     color?: 'primary' | 'gray' | 'white';
@@ -15,8 +15,8 @@ export const VentureLogo: React.FC<VentureLogoProps> = ({
     className = '',
     color = 'primary'
 }) => {
-    // Styles based on the user-provided snippet for Accura
-    if (ventureId === 'accura') {
+    // Styles based on the user-provided snippet for Accurify
+    if (ventureId === 'accurify') {
         return (
             <div className={cn(
                 "inline-flex items-center font-sans tracking-[-0.04em] leading-none select-none transition-all duration-200 ease-in-out",
@@ -29,7 +29,7 @@ export const VentureLogo: React.FC<VentureLogoProps> = ({
                     color === 'gray' && "text-[#262626]",
                     color === 'white' && "text-white"
                 )}>
-                    {collapsed ? 'a' : 'accura'}
+                    {collapsed ? 'a' : 'accurify'}
                 </span>
             </div>
         );

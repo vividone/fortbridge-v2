@@ -6,7 +6,7 @@ import { ventures } from '@/data/ventures';
 
 export const metadata: Metadata = {
   title: 'Our Ventures | Portfolio Overview',
-  description: 'Explore Fortbridge\'s portfolio: Accura (financial management), Bakr (bakery operations), and Valid8 (identity verification). Enterprise software built for Africa.',
+  description: 'Explore Fortbridge\'s portfolio: Accurify (financial management), Bakr (bakery operations), and Valid8 (identity verification). Enterprise software built for Africa.',
 };
 
 export default function VenturesPage() {
@@ -122,7 +122,7 @@ export default function VenturesPage() {
             },
             {
               title: 'Cross-Pollination',
-              description: 'Learnings from Accura inform Bakr. Patterns from Valid8 feed back into the studio. The portfolio gets smarter together.',
+              description: 'Learnings from Accurify inform Bakr. Patterns from Valid8 feed back into the studio. The portfolio gets smarter together.',
             },
             {
               title: 'Patient Capital',

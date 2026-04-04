@@ -13,7 +13,7 @@ const badgeVariants = cva(
         warning: 'bg-[var(--color-warning-light)] text-[var(--color-warning)]',
         error: 'bg-[var(--color-error-light)] text-[var(--color-error)]',
         info: 'bg-[var(--color-info-light)] text-[var(--color-info)]',
-        accura: 'bg-[var(--color-accura-light)] text-[var(--color-accura)]',
+        accurify: 'bg-[var(--color-accurify-light)] text-[var(--color-accurify)]',
         bakr: 'bg-[var(--color-bakr-light)] text-[var(--color-bakr)]',
         valid8: 'bg-[var(--color-valid8-light)] text-[var(--color-valid8)]',
       },

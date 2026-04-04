@@ -46,8 +46,8 @@
   --color-info-light: #EDF5FF;
 
   /* Venture Brand Colors */
-  --color-accura: #10B981;
-  --color-accura-light: #D1FAE5;
+  --color-accurify: #10B981;
+  --color-accurify-light: #D1FAE5;
   --color-bakr: #F59E0B;
   --color-bakr-light: #FEF3C7;
   --color-valid8: #8B5CF6;
@@ -151,8 +151,8 @@
   --color-info-light: var(--color-info-light);
 
   /* Venture Colors */
-  --color-accura: var(--color-accura);
-  --color-accura-light: var(--color-accura-light);
+  --color-accurify: var(--color-accurify);
+  --color-accurify-light: var(--color-accurify-light);
   --color-bakr: var(--color-bakr);
   --color-bakr-light: var(--color-bakr-light);
   --color-valid8: var(--color-valid8);

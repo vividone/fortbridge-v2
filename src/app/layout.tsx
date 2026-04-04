@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     'African enterprise software',
     'venture studio',
     'FinTech',
-    'Accura',
+    'Accurify',
     'Bakr',
     'Valid8',
   ],

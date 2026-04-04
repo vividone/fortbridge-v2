@@ -157,7 +157,7 @@ export default function AboutPage() {
               { year: '2022', event: 'Completed 20+ successful client projects' },
               { year: '2023', event: 'Security practice recognized; penetration testing engagements' },
               { year: '2024', event: 'Strategic pivot to startup studio model' },
-              { year: '2025', event: 'Accura MVP launched at accura.com.ng' },
+              { year: '2025', event: 'Accurify MVP launched at accurify.co' },
               { year: '2025', event: 'Bakr MVP launched at thebakrapp.xyz' },
               { year: '2025', event: 'Valid8 development initiated' },
             ].map((item, i) => (

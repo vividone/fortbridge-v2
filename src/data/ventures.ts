@@ -2,17 +2,17 @@ import type { Venture } from '@/types';
 
 export const ventures: Venture[] = [
   {
-    id: 'accura',
-    name: 'Accura',
-    slug: 'accura',
+    id: 'accurify',
+    name: 'Accurify',
+    slug: 'accurify',
     tagline: 'The Intelligent Financial OS',
-    description: 'Accura is a hybrid "Software + Service" platform designed to close the financial maturity gap for Nigerian SMEs. We combine AI-powered bookkeeping automation with a vetted expert marketplace—moving businesses from reactive compliance to proactive growth.',
+    description: 'Accurify is a hybrid "Software + Service" platform designed to close the financial maturity gap for Nigerian SMEs. We combine AI-powered bookkeeping automation with a vetted expert marketplace—moving businesses from reactive compliance to proactive growth.',
     status: 'live',
     statusLabel: 'MVP Live',
     category: 'FinTech / Financial Management',
     color: '#10B981',
     colorLight: '#D1FAE5',
-    website: 'https://accura.fortbridge.co',
+    website: 'https://accurify.co',
     logo: '/images/accura_logo.png',
     features: [
       'Mobile-first double-entry ledger',

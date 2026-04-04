@@ -43,8 +43,8 @@ export const navigation: NavItem[] = [
         description: 'Explore our portfolio',
       },
       {
-        label: 'Accura',
-        href: '/ventures/accura',
+        label: 'Accurify',
+        href: '/ventures/accurify',
         description: 'The Intelligent Financial OS',
       },
       {
@@ -81,7 +81,7 @@ export const footerColumns: FooterColumn[] = [
   {
     title: 'Ventures',
     links: [
-      { label: 'Accura', href: '/ventures/accura' },
+      { label: 'Accurify', href: '/ventures/accurify' },
       { label: 'Bakr', href: '/ventures/bakr' },
       { label: 'Valid8', href: '/ventures/valid8' },
       { label: 'All Ventures', href: '/ventures' },
